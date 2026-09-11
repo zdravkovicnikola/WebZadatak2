@@ -15,9 +15,9 @@
             <asp:Button ID="Counter" runat="server" Text="Count" OnClick="Counter_Click"/>
         </p>
         <p resource="Contact.aspx">
-            Idi na <a href ="https://www.transfermarkt.com/">About</a> stranicu Blabla.
-            <asp:HyperLink ID="HyperLink1" runat="server" BackColor="#FF66FF" NavigateUrl="~/About.aspx">HyperLink</asp:HyperLink>
-        </p>
+            Idi na 
+            <asp:HyperLink ID="hlLjubimac" runat="server" NavigateUrl="~/FormaLjubimac.aspx">formu za unos ljubimca</asp:HyperLink>
+            .</p>
     </form>
 </body>
 </html>
